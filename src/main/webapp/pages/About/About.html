@@ -1,0 +1,34 @@
+<wm-page data-ng-controller="AboutPageController" pagetitle="About" name="page1">
+    <wm-content name="content1">
+        <wm-page-content columnwidth="12" name="page_content1">
+            <wm-layoutgrid name="layoutgrid1">
+                <wm-gridrow name="gridrow1">
+                    <wm-gridcolumn columnwidth="10" name="gridcolumn1">
+                        <wm-composite name="composite1">
+                            <wm-label class="col-md-3 control-label" name="label1" caption="Albertsons Chatbot Prototype - May 6, 2017" width="500" fontsize="24"></wm-label>
+                        </wm-composite>
+                    </wm-gridcolumn>
+                    <wm-gridcolumn columnwidth="2" name="gridcolumn2">
+                        <wm-button class="btn-default" caption="Return to Chatbot" type="button" margin="unset 0.5em" name="button1" on-click="Variables.goToPage_Main.invoke()"></wm-button>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+                <wm-gridrow name="gridrow2">
+                    <wm-gridcolumn columnwidth="12" name="gridcolumn4">
+                        <wm-html name="html1" fontsize="3">
+                            <h1>Overview</h1>
+                            <h1>
+<font size="3">
+This is the Albertsons Chatbot prototype developed by IBM to demonstrate the capabilities of the Watson Conversation API and IBM Bluemix.  With these tools, Albertsons can solve problems in new ways.  The concept of conversational discovery will allow traditional requests for information to be delivered in a human like interaction to ask the necessary follow on questions to get all that is required to satisfy a user's request.
+<h1>Examples of Use</h1>
+                            </font>
+                            <h1><font size="3">
+Where is my order?<br>
+Do I have any raspberries coming today?<br>
+Why didn't I receive all the items I ordered?<br></font></h1></h1>
+                        </wm-html>
+                    </wm-gridcolumn>
+                </wm-gridrow>
+            </wm-layoutgrid>
+        </wm-page-content>
+    </wm-content>
+</wm-page>
